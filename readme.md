@@ -1,4 +1,4 @@
-#IMDB Web API
+# IMDB Web API
 
 As written in the setup file, this project is a basic API written in flask which returns results from a dockerised IMDB database. A basic HTML template was also created for the home page to communicate the different routes within the API.
 
