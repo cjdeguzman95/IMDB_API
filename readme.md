@@ -3,7 +3,7 @@
 As written in the setup file, this project is a basic API written in flask which returns results from a dockerised IMDB database. A basic HTML template was also created for the home page to communicate the different routes within the API.
 
 ## SQL Management
-Psycopg2 is used to connect the IMDBConnManager to the PostgreSQL IMDB databased. This class also defines the variables required to establish the connection between the programme and the database.
+Psycopg2 is used to connect the IMDBConnManager to the PostgreSQL IMDB database. This class also defines the variables required to establish the connection between the programme and the database.
 Through abstraction and inheritance, the query manager brings together the two methods from the IMDBConnManager into one method which executes the SQL query then fetches and returns all the results.
 
 ## JSON Management
